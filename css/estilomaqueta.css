@@ -508,3 +508,50 @@ width: 800px;
     margin-left: 5px;
     text-align: center;
 }
+/*Productos*/
+.tablaintro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tablaintro img{
+    max-width: 100px;
+    border-radius: 50px;
+}
+.tablaintro h1{
+    color:var(--dark-color);
+}
+.tablaintro a{
+    width: 60px;
+    background-color:var(--purple-color);
+    color: white;
+    text-decoration: none;
+}
+.formbusqueda{
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+.formbusqueda input{
+    width: 70%;
+}
+.botonproducto{
+    background-color: var(--purple-color);
+}
+.botoneliminar{
+    background-color: var(--blue-color);
+}
+table{
+    width: 100%;
+    border: 2px solid var(--dark-color);
+    border-collapse: collapse;
+}
+table th{
+    border: 2px solid var(--dark-color);
+    background-color: var(--purple-color);
+    color: white;
+}
+table td{
+    border: 2px solid var(--dark-color);
+    text-align: center;
+}

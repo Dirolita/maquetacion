@@ -41,6 +41,44 @@
         </article>
 
         <article class="contenido">
+            <form action="" method="" class="formproductos">
+                <div class="form-group">
+                    <label for="descripcion" class="form-label">Descripcion</label>
+                    <input type="text" name="descripcion" id="descripcion" class="form-input" placeholder="Descripcion del producto">
+                </div>
+                <div class="form-group">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="form-input" placeholder="Nombre del producto">
+                </div>
+                <div class="form-group">
+                    <label for="precio" class="form-label">Precio</label>
+                    <input type="number" name="precio" id="precio" class="form-input" placeholder="Ingresa el precio del producto">
+                </div>
+                <div class="form-group">
+                    <label for="categoria" class="form-label">Categoria</label>
+                    <select name="categoria" class="form-selec">
+                        <c:foreach>
+                            <option value="id">Juguetes</option>
+                        </c:foreach>
+                        <c:foreach>
+                            <option value="id">Concentrado</option>
+                        </c:foreach>
+                        <c:foreach>
+                            <option value="id">Medicamentos</option>
+                        </c:foreach>
+                        <c:foreach>
+                            <option value="id">Accesorios</option>
+                        </c:foreach>
+                    </select>
+                <div class="form-group">
+                    <input type="submit" name="Guardar" value="Guardar" class="botonproducto">
+                </div>
+
+
+                    </select>
+                </div>
+
+            </form>
                 
 
         </article>
